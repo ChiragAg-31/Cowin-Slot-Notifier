@@ -1,0 +1,21 @@
+In this course we will learn about how to create Node.js based CLI -Command Line Interface. We will be learning this by actually building one. So, what will we build? We will be building a COVID-19 vaccination slots tracker using CLI. This will call the live api and return the different slots available in your choice of district. 
+
+The only pre-requisite’s which I believe is you should know basics of Javascript and understand Node.js.
+
+While building this CLI we will use and learn about the follow node package manager-npm
+
+- Axios –for calling the different api’s.
+- Chalk – for beautifying the console output.
+- Commander – giving the different options and command in CLI such as cowin states or cowin districts stateid
+- Inquirer – for getting user input for entering the age filter.
+- Node-notifier – send desktop notification.
+- Tty-table – format our table output
+
+Our CLI will perform the follow functions.
+
+- Ability to get all states and id’s.
+- Ability to get all district id's for a state id.
+- Ability to get slots by district id.
+- Ability to filter slots by ages as we have slots by 18-45 and 45 and above.
+- Apart from this beautification of the console output 
+- Ability to send desktop notification
